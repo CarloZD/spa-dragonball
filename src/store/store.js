@@ -1,9 +1,9 @@
-import { create } from "zustand";
+import { create } from 'zustand'
 
-export const useStore = create((set)=> ({
-    characters: [],
-    loading: false,
-    error: null,
+export const useStore = create((set) => ({
+  characters: [],
+  loading: false,
+  error: null,
 
   fetchCharacters: async () => {
     try {
@@ -18,3 +18,4 @@ export const useStore = create((set)=> ({
     }
   }
 }))
+

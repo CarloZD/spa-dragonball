@@ -1,4 +1,3 @@
-src/components/Card.jsx
 export default function Card({ item }) {
   return (
     <div className="card h-100 text-center shadow">

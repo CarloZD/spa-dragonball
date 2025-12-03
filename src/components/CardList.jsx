@@ -1,7 +1,7 @@
-import Card from "./Card";
+import Card from './Card'
 
-export default function CardList({ items }){
-    return(
+export default function CardList({ items }) {
+  return (
     <div className="row g-4">
       {items.map((it) => (
         <div className="col-md-4" key={it.id}>
@@ -9,6 +9,5 @@ export default function CardList({ items }){
         </div>
       ))}
     </div>
-
-    )
+  )
 }
