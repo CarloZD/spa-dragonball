@@ -13,3 +13,8 @@ https://dragonball-api.com/api/characters
 npm install
 npm run dev
 
+```
+Link de repositorio:https://github.com/CarloZD/spa-dragonball.git
+Link de Vercel: spa-dragonball-sigma.vercel.app
+LINK DE VIDEO: https://youtu.be/UHhJLMnq9xI
+
